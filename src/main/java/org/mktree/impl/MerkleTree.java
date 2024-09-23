@@ -167,7 +167,7 @@ public class MerkleTree {
      */
     public boolean verifyProof(String rootHash, String dataBlock, List<String> proof) {
         String currentHash = generateHash(dataBlock);
-        int index = leaves.indexOf(dataBlock);
+        int index = indexOfTargetDataHash(currentHash);
         // Recompute the root hash using the proof
         for (String siblingHash : proof) {
             if(index % 2 ==0){

@@ -55,7 +55,7 @@ public class MerkleTreeDemo {
         System.out.printf("The Merkle Tree after removing %s: \n",insertData3);
         tree.printLevelOrderTraversal();
 
-        System.out.printf("Root hash before removing %s is %s \n",insertData3,rootHashAfterInsertData2);
+        System.out.printf("Root hash before adding %s is %s \n",insertData3,rootHashAfterInsertData2);
         System.out.printf("Root hash after removing %s is %s \n",insertData3,rootHashAfterInsertData2);
         System.out.printf("Root hash before after are equal ? %s \n",rootHashAfterInsertData2.equals(rootHashAfterRemovingInsertData3));
 

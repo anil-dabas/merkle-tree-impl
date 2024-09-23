@@ -137,7 +137,7 @@ b91b5c123d226f0dd5ec459891e6fc0993938a58d788cf6aaecee350888100f1
 db950fd8995a45bec0175d51540e585d0efe6dfc2ef95e66d29a1b36f6962f99
 db950fd8995a45bec0175d51540e585d0efe6dfc2ef95e66d29a1b36f6962f99
 
-Root hash before removing Solidity is 43b52e36d696320ae8d7ff00a0b31fa1e10fe909410e3bdba6fa9b5add9f3c1b 
+Root hash before adding Solidity is 43b52e36d696320ae8d7ff00a0b31fa1e10fe909410e3bdba6fa9b5add9f3c1b 
 Root hash after removing Solidity is 43b52e36d696320ae8d7ff00a0b31fa1e10fe909410e3bdba6fa9b5add9f3c1b 
 Root hash before after are equal ? true 
 ```
